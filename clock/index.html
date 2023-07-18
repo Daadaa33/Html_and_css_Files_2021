@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex justify-center items-center">
+        <div class="flex  justify-center items-center w-50 pb-4 px-4 h-20 bg-yellow-300 mt-10 rounded-md text-center ">
+           
+           <h1 id="hr" class="text-5xl font-mono pt-5 px-2">00</h1>
+            <h1 id="mn" class="text-5xl font-mono pt-5 px-2">00</h1>
+            <h1 id="sc" class="text-5xl font-mono pt-5 px-2">00</h1>
+            <h1 id="setion" class="text-5xl font-mono pt-5 px-2">PM</h1>
+      
+        </div>
+    </div>
+
+    <script>
+       function displayTime (){
+        const dateTime = new date();
+
+        let hour = dateTime.getHours();
+        let minus = dateTime.getMinutes();
+        let second = dateTime.getSeconds();
+
+        let session = document.getElementById("setion");
+
+        document.getElementById("hr").innerHTML = hour;
+        document.getElementById("mn").innerHTML = minus;
+        document.getElementById("sc").innerHTML = second;
+       }
+
+       setInterval(displayTime, 10)
+    </script>
+</body>
+</html>

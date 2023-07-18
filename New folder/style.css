@@ -1,0 +1,365 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(32,28,48,0.658);
+}
+.header video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    z-index: -1;
+}
+.header .content{
+    position: relative;
+    z-index:1;
+    width: 100%;
+}
+.header .content .nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 11vh;
+    background-color: #454449d3;
+    margin: auto;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+.logo img {
+    width: 120px;
+    padding-right: 0;
+}
+.logo h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.logo h1 span{
+    color: rgb(252,50,0);
+}
+.nav-items{
+    width: 45%;
+    text-align: center;
+    margin: auto;
+}
+.nav-items ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.nav-items ul li{
+    list-style: none;
+    display: inline-block;
+    height: 20px;
+    width: auto;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 12px 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 5px;
+    padding: 0;
+}
+li .active, a:hover{
+    color: rgb(252,50,0);
+    text-decoration: underline;
+}
+ul #sign{
+    background-color: rgb(252,50,0);
+    border-radius: 12px;
+ 
+}
+ul #sign:hover{
+    background: transparent;
+    border: 1.2px solid rgb(252,50,0);
+    padding: 11px 19px;
+}
+.main{
+    align-items: center;
+    text-align: center;
+    margin-top: 25vh;
+    color: white;
+}
+.main h3{
+    font-size: 20px;
+    transition: 0.5s;
+}
+.main h1{
+    font-size: 80px;
+    padding: 25px 0px;
+    font-weight: bold;
+}
+.main h1 span{
+    color: rgb(252,50,0);
+}
+button{
+    padding: 15px 20px;
+    background: rgb(252,50,0);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background: transparent;
+    border: 1.5px solid rgb(206, 104, 78);
+    color: rgb(252,50,0);
+}
+
+/*-----bilow----*/
+.bilowga h1 {
+    text-align: center;
+    color: rgb(255, 40, 40);
+    padding-top: 100px;
+    padding-bottom: 10px;
+    font-weight: 800;
+    font-size: 30px;
+}
+.bilowga  i {
+    font-size: 100px;
+    padding-left: 670px;
+    color: #f01010;
+    padding-bottom: 10px;
+ 
+}
+.bilowga p
+{
+    text-align: center;
+        padding-bottom: 100px;
+}
+  /*group*/
+
+  .group {
+    display: flex;
+    justify-content: space-around;
+
+}
+.team{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 70px;
+}
+.team i {
+    font-size: 43px;
+    color: white;
+    margin-right: 20px;
+    border-radius: 7px;
+    background: orangered;
+    width: 80px;
+    padding-left: 22px;
+    height: 70px;
+    padding-top: 23px;
+}
+.team p a {
+    text-decoration: none;
+    color: #f01010;
+}
+/*-classes--*/
+
+#classes-list h1{
+    color: #ff004f;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#classes-list i.fa-water {
+    font-size: 40px;
+    padding-left: 720px;
+    color: #f01010;
+    padding-bottom: 15px;
+}
+ #classes-list p {
+    text-align: center;
+    
+ }
+ .classes__icon {
+    margin-left: 40px;
+    
+ }
+ .contact__1{
+    margin-left: 10px;
+    padding: 6px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.2);
+    margin-bottom: 20px;
+    color: #fc3200;
+    padding-left: 6px;
+
+ }
+ .contact__1 i{
+    font-size: 25px;
+}
+
+ .contact__2{
+    margin-left: 10px;
+    padding: 8px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.2);
+    
+ }
+ 
+.classes__type {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.classes__img img {
+    width: 100%;
+    padding-left: 19pxs;
+}
+/*-SCHEDULES--*/
+#classes {
+    height: auto;
+    padding-top: 30px;
+    
+}
+
+.clase h1 {
+    color: #f01010;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+.clase i {
+    font-size: 40px;
+    padding-left: 720px;
+    color: #f01010;
+    padding-bottom: 10px;
+}
+.clase p{
+  text-align: center;
+  color: #fff;
+    padding-bottom: 30px;
+}
+
+.span 
+{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+   
+}
+.span span {
+    font-weight: bold;
+    padding: 6px;
+    color: #fff;
+}
+.span .actor, span:hover {
+   color: #fc3200;
+}
+.table table {
+    justify-content: center;
+    margin-left: 300px;
+    height: 400px;
+    width: 60%;
+    padding-bottom: 40px;
+}
+ tr td {
+    text-align: center;
+    color: #fff;
+    border: 1px solid #ffffff;
+}
+
+
+
+/*---contact--*/
+
+.contact-left {
+    flex-basis: 35%;
+}
+.contact-right {
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i {
+
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons {
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration:none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: tranform 0.5s;
+}
+.social-icons a:hover {
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.contact-right form {
+    width: 100%;
+    margin-top: 100px;
+}
+form input, form textarea{
+    width: 50%;
+    border: 0;
+    outline: none;
+    background: #ababab;
+    padding: 15px;
+    margin: 15px 0;
+    margin-left: 700px;
+    
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn {
+ width: 50%;
+ margin-left: 700px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; 
+    background: #262626;
+    font-size: 200;
+    margin-top: 20px;
+    color: #fff;
+}
+.copyright i{
+    color: #ff004f;
+}
+
+
+
+
+/*sing up*/
+

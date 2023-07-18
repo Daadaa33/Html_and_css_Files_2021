@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    height: 6px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+}
+ul li {
+    list-style-type: none;
+}
+.menu {
+    flex-basis: 2.5%;
+    
+}
+.logo {
+    flex-basis: 11%;
+    
+}
+.search {
+    flex-basis: 60%;
+    text-align: center;
+    
+}
+.acount {
+    flex-basis: 20%;
+     
+}
+i{
+    font-size: 18px;
+    cursor: pointer;
+    color: rgb(96,96,96);
+}
+.menu .logo .search {
+    margin-right: 2%;
+}
+.fa-youtube {
+    color: rgb(255, 8, 8);
+}
+.search input {
+    height: 30px;
+    width: 75%;
+    font-size: 16px;
+    padding: 10px ;
+    border: 1px solid lightgray;
+}
+.search input:focus {
+    outline: 0.5px solid rgb(47,47,249);
+} 
+.search button {
+    height: 30px;
+    border: 1px solid lightgray;
+    padding: 7px 20px;
+    margin-left: -3px;
+    background-color: #f9f9f9;
+}
+.search button i{
+    font-size: 14px;
+    
+}
+.acount i{
+    margin-right: 15%;
+}
+.search, .acount{
+    border-bottom: 1px solid lightgray;
+}
+/* main*/
+.main{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main .left{
+
+    flex-basis: 17%;
+    padding: 20px;
+   
+}
+.left ul li {
+    height: 35px;
+    padding: 10px;
+}
+.left ul li:hover{
+    background-color: #f9f9f9;
+}
+.left i{
+    margin-right: 6%;
+}
+
+.left .fa-home {
+    color: red;
+}
+.first-items,
+.second-items,
+.fourth,
+.third-items{
+    margin-bottom: 15px;
+    border-bottom: 0.5px solid lightgrey;
+    padding-bottom: 15px;
+}

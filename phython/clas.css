@@ -1,0 +1,9 @@
+body {
+    /* background: rgb(2,0,36); */
+color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+background: linear-gradient(18deg, rgba(2,0,36,1) , rgba(255,0,170,0.6) );
+}   
